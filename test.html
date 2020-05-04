@@ -1,42 +1,639 @@
 <!DOCTYPE html>
-<html lang="zh">
-<head>
-    <meta charset="UTF-8">
-    <title>Page Title</title>
-</head>
-<body>
-    <ul style="list-style-type: circle;">
-        <a href=""><li>无序列表1</li></a>
-        <a href=""><li>无序列表2</li></a>
-        <a href=""><li>无序列表3</li></a>
-        <a href=""><li>无序列表4</li></a>
-        <a href=""><li>无序列表5</li></a>
-        <a href=""><li>无序列表6</li></a>
-    </ul>
-    <ol>
-        <li>有序列表1</li>
-        <li>有序列表2</li>
-        <li>有序列表3</li>
-        <li>有序列表4</li>
-        <li>有序列表5</li>
-        <li>有序列表6</li>
-    </ol>
-    <dl>
-        <dt>标题1</dt>
-        <dl>内容1</dl>
-        <dl>内容2</dl>
-        <dl>内容3</dl>
-        <dt>标题2</dt>
-        <dl>内容1</dl>
-        <dl>内容2</dl>
-        <dl>内容3</dl>
-    </dl>
-    <table border="2">
-        <tr>
-            <td> <img src="https://bkimg.cdn.bcebos.com/pic/e61190ef76c6a7ef9ffab173f2faaf51f2de6682?x-bce-process=image/watermark,g_7,image_d2F0ZXIvYmFpa2U5Mg==,xp_5,yp_5" alt="" srcset=""></td>
-            <td> <img src="https://bkimg.cdn.bcebos.com/pic/e61190ef76c6a7ef9ffab173f2faaf51f2de6682?x-bce-process=image/watermark,g_7,image_d2F0ZXIvYmFpa2U5Mg==,xp_5,yp_5" alt="" srcset=""></td>
-            <td> <img src="https://bkimg.cdn.bcebos.com/pic/e61190ef76c6a7ef9ffab173f2faaf51f2de6682?x-bce-process=image/watermark,g_7,image_d2F0ZXIvYmFpa2U5Mg==,xp_5,yp_5" alt="" srcset=""></td>
-        </tr>
-    </table>
+<html>
+     <head>
+		 <meta charset="utf-8">
+		 <title>彭昱畅-百度百科（张亚茹）</title>
+		 <link rel="stylesheet" href="CSS/test.css"/><!--使用css-->
+	 </head>
+	 
+
+      <body>
+		<div class="header"><!--头部区域-->
+			<h3>假装是金主爸爸的广告条或者是网站的logo--张亚茹</h3>
+			<h3>透心凉，心飞扬！！！</h3>
+			<p>浏览器可以改变大小</p>
+		</div>
+		<!-- 菜单导航区域-->
+		
+		<!--
+			<div class="menu">
+			
+			<div class="dropdown">
+				<button class="dropbtn">首页</button>
+				<div class="dropdown-content">
+				  <a href="https://baike.baidu.com/calendar/">历史上的今天</a>
+				  <a href="//www.runoob.com">冷知识</a>
+				  <a href="//www.runoob.com">图解百科</a>
+				</div>
+			</div>
+			
+			<div class="dropdown">
+				<button class="dropbtn">分类</button>
+				<div class="dropdown-content">
+				  <a href="//www.runoob.com">艺术 科学</a>
+				  <a href="//www.runoob.com">文化 生活</a>
+				  <a href="//www.runoob.com">社会 人物</a>
+				</div>
+			</div>
+			
+			<div class="dropdown">
+				<button class="dropbtn">秒懂百科</button>
+				<div class="dropdown-content">
+					<a href="//www.runoob.com">秒懂大师说</a>
+					<a href="//www.runoob.com">秒懂五千年</a>
+					<a href="//www.runoob.com">秒懂全世界</a>
+				</div>
+			</div>
+			  <div class="dropdown">
+				<button class="dropbtn">特色百科</button>
+				<div class="dropdown-content">
+				  <a href="//www.runoob.com">非遗百科</a>
+				  <a href="//www.runoob.com">城市百科</a>
+				  <a href="//www.runoob.com">恐龙百科</a>
+				</div>
+		  </div>
+		  <div class="dropdown">
+			<button class="dropbtn">用户</button>
+			<div class="dropdown-content">
+			  <a href="//www.runoob.com">燃梦计划</a>
+			  <a href="//www.runoob.com">分类达人</a>
+			  <a href="//www.runoob.com">百科任务</a>
+			</div>
+	  	  </div>
+	  	  <div class="dropdown">
+			<button class="dropbtn">权威合作</button>
+			<div class="dropdown-content">
+		  		<a href="//www.runoob.com">合作模式</a>
+		  		<a href="//www.runoob.com">常见问题</a>
+		  		<a href="//www.runoob.com">联系方式</a>
+			</div>
+  		   </div>
+			<div class="dropdown" style="float: right;;">
+				<button class="dropbtn">个人中心</button>
+				<div class="dropdown-content" style="right:0;">
+				  <a href="#">菜鸟教程 1</a>
+				  <a href="#">菜鸟教程 2</a>
+				  <a href="#">菜鸟教程 3</a>
+				</div>
+			</div>
+
+		  </div> 
+		-->
+		<!--ul + li 导航栏-->
+		<div id="menu">
+			<ul>
+                <li><a href="" class="dropbtn">首页</a>
+                    <div class="dropdown">
+                        <div class="dropdown-content">
+                            <ul class="simple">
+                                <li><a href="https://baike.baidu.com/calendar/">历史上的今天</a></li>
+                                <li><a href="//www.runoob.com">冷知识</a></li>
+                                <li><a href="//www.runoob.com">图解百科</a></li>
+                            </ul>	
+                        </div>
+                    </div>
+                </li>
+                <li><a href="" class="dropbtn">分类</a>
+                    <div class="dropdown">
+                        <div class="dropdown-content">
+                            <ul class="simple">
+                                <li> <a href="//www.runoob.com">艺术 科学</a></li>
+                                <li><a href="//www.runoob.com">文化 生活</a></li>
+                                <li><a href="//www.runoob.com">社会 人物</a></li>
+                            </ul>	
+                        </div>
+                    </div>
+                </li>
+                <li><a href="" class="dropbtn">秒懂百科</a>
+                    <div class="dropdown">
+                        <div class="dropdown-content">
+                            <ul class="simple">
+                                <li><a href="//www.runoob.com">秒懂大师说</a></li>
+                                <li><a href="//www.runoob.com">秒懂五千年</a></li>
+                                <li><a href="//www.runoob.com">秒懂全世界</a></li>
+                            </ul>	
+                        </div>
+                    </div>
+                </li>
+                <li><a href="" class="dropbtn">特色百科</a>
+                    <div class="dropdown">
+                        <div class="dropdown-content">
+                            <ul class="simple">
+                                <li><a href="//www.runoob.com">非遗百科</a></li>
+                                <li><a href="//www.runoob.com">城市百科</a></li>
+                                <li><a href="//www.runoob.com">恐龙百科</a></li>
+                            </ul>	
+                        </div>
+                    </div>
+                </li>
+                <li><a href="" class="dropbtn">用户</a>
+                    <div class="dropdown">
+                        <div class="dropdown-content">
+                            <ul class="simple">
+                                <li><a href="//www.runoob.com">燃梦计划</a></li>
+                                <li><a href="//www.runoob.com">分类达人</a></li>
+                                <li><a href="//www.runoob.com">百科任务</a></li>
+                            </ul>	
+                        </div>
+                    </div>
+                </li>
+                <li><a href="" class="dropbtn">权威合作</a>
+                    <div class="dropdown">
+                        <div class="dropdown-content">
+                            <ul class="simple">
+                                <li><a href="//www.runoob.com">合作模式</a></li>
+                                <li><a href="//www.runoob.com">常见问题</a></li>
+                                <li><a href="//www.runoob.com">联系方式</a></li>
+                            </ul>	
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <span>个人中心</span>
+		</div>
+		<!--ul + li 导航栏结束-->
+		  <div class="card1"><!--引入视频-->
+			<iframe class="video" src='https://player.youku.com/embed/XMzM0ODAxMDk2OA==' frameborder=1 'allowfullscreen'></iframe>
+		  </div>
+		  <div class="row">
+			<div class="column side"><!--侧栏-->
+			</div>		
+			<div class="column middle">	 
+				<div class="card">
+					<div class="row">
+						<div class="leftcolumn">
+				<h1>彭昱畅</h1><!--一级标题-->
+				<p><font size="2"><i>1994年10月25日 江西省新余市 中国</i></font></p>
+				<p><b>彭昱畅</b>，1994年10月25日出生于江西省新余市，毕业于上海戏剧学院木偶表演系，中国内地男演员。<div class="tooltip">[1]<span class="tooltiptext">明星学长彭昱畅做客智囊团:坚持到底就是胜利 ．新浪网</span></div>
+				2015年12月，参演爱情喜剧《太子妃升职记》，以强公公一角正式出道<div class="tooltip">[2]<span class="tooltiptext">天天小兄弟以纶彭昱畅首秀 蛋挞王子配男版舞娘 ．网易娱乐</span></div> ；2016年1月，以湖南卫视《天天向上》“天天小兄弟”主持登场<div class="tooltip">[3]<span class="tooltiptext">彭昱畅深情谈父爱 真情流露潸然泪下 ．新浪网</span></div>  ；同年主演明星养成网络剧《明星志愿》 [4]  和搜狐自制剧《刺客列传》 <div class="tooltip">[5]<span class="tooltiptext">好多注释呀QWQ</span></div> ；2017年，出演青春励志剧《浪花一朵朵》<div class="tooltip">[6]<span class="tooltiptext">好多注释呀QWQ</span></div> ；同年，凭借校园励志片《闪光少女》提名第20届上海电影节亚洲新人奖最佳男演员奖 <div class="tooltip">[7]<span class="tooltiptext">好多注释呀QWQ</span></div>  ；同年，参加浙江卫视《演员的诞生》<div class="tooltip">[8]<span class="tooltiptext">假装是注释，混入其中QWQ</span></div> ；2018年4月13日，作为固定成员参加湖南卫视的综艺节目《向往的生活》第二季 <div class="tooltip">[9]<span class="tooltiptext">假装是注释，混入其中QWQ</span></div>  ；同年，凭借电影《大象席地而坐》提名第55届台湾电影金马奖最佳男主角奖<div class="tooltip">[10]<span class="tooltiptext">好多注释呀QWQ</span></div>  ；2019年，参演都市情感剧《都挺好》<div class="tooltip">[11]<span class="tooltiptext">好多注释呀QWQ</span></div>  ；8月，入选2019福布斯中国100名人榜 <div class="tooltip">[12]<span class="tooltiptext">好多注释呀QWQ</span></div> 。10月17日，入选2019福布斯中国30岁以下精英榜 <div class="tooltip">[13]<span class="tooltiptext">好多注释呀QWQ</span></div> 。
+				2019年出演陈可辛执导电影《中国女排》，饰演青年陈忠和。</p>
+				<h2>代表作品</h2>
+				<table >
+					<tr>
+						<td><img src="https://bkimg.cdn.bcebos.com/pic/e61190ef76c6a7ef9ffab173f2faaf51f2de6682?x-bce-process=image/watermark,g_7,image_d2F0ZXIvYmFpa2U5Mg==,xp_5,yp_5" alt="duoguan" width="100" height="130"></td>
+						<td><img src="https://bkimg.cdn.bcebos.com/pic/9345d688d43f87945dfcb0ddd81b0ef41ad53ac6?x-bce-process=image/watermark,g_7,image_d2F0ZXIvYmFpa2UyNzI=,xp_5,yp_5" alt="shanguangshaonv" width="100" height="130"></td>
+						<td><img src="https://bkimg.cdn.bcebos.com/pic/377adab44aed2e73b7f07b108b01a18b87d6faf5?x-bce-process=image/watermark,g_7,image_d2F0ZXIvYmFpa2UyMjA=,xp_5,yp_5" alt="daxiang" width="100" height="130"></td>
+						<td><img src="https://bkimg.cdn.bcebos.com/pic/b151f8198618367a3ad76b3f22738bd4b21ce5f2?x-bce-process=image/watermark,g_7,image_d2F0ZXIvYmFpa2UxMTY=,xp_5,yp_5" alt="gege" width="100" height="130"></td>
+					</tr>
+				</table>
+						</div>
+						<div class="rightcolumn">
+							<div1 class="responsive">
+								<div1 class="img">
+								  <a target="_blank" href="https://bkimg.cdn.bcebos.com/pic/5243fbf2b21193134589abc46a380cd790238df8?x-bce-process=image/watermark,g_7,image_d2F0ZXIvYmFpa2UxNTA=,xp_5,yp_5">
+									<img src="https://bkimg.cdn.bcebos.com/pic/5243fbf2b21193134589abc46a380cd790238df8?x-bce-process=image/watermark,g_7,image_d2F0ZXIvYmFpa2UxNTA=,xp_5,yp_5" width="300" height="200">
+								  </a>
+								  <div1 class="desc">彭昱畅</div1>
+								</div1>
+							  </div>
+					</div>
+				</div>
+				
+
+				<div class="card">
+					<div class="row">
+						<div class="left">
+				<font size="5" class="cata">目录:</font>
+				<ol class="cata">
+					<li><a href="#one" title="123">演艺经历</a></li>
+					<li><a href="#two">主要作品</a>
+					<ul class="a">
+						<li><a href="#tv">参演电视剧</a></li>
+						<li><a href="#film">参演电影</a></li>
+						<li><a href="#variety">综艺节目</a></li>
+						<li><a href="#photo">杂志写真</a></li>
+						<li><a href="#music">音乐作品</a></li>
+					</ul>
+					</li>
+					<li><a href="#three">个人生活</a></li>
+					<li><a href="#four">社会活动</a></li>
+					<li><a href="#five">获奖记录</a></li>
+					<li><a href="#six">人物评价</a></li>
+				</ol>
+						</div>
+						<div class="right">
+							<h2>ta的基本信息：</h2>
+							<table class="information">
+								<tr>
+									<td>中文名 <hr>彭昱畅</td>
+									<td>别名<hr>蛋挞小王子</td>
+									<td>国籍<hr>中国</td>
+									<td>出生日期<hr>1994年10月25日</td>
+								</tr>
+								<tr>
+									<td>出生地<hr>江西省新余市</td>
+									<td>民族<hr>汉族</td>
+									<td>星座<hr>天蝎座</td>
+									<td>毕业院校<hr>上海戏剧学院12级木偶表演系</td>
+								</tr>
+								<tr>
+									<td>身高<hr>178CM</td>
+									<td>体重<hr>66.9KG</td>
+									<td>职业<hr>演员</td>
+									<td>特长<hr>表演、萨克斯、唱歌</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+			</div>
+				<div class="card">
+				<h2 id="one">演艺经历</h2>
+				<p>2015年12月，在爱情古装网剧《太子妃升职记》中饰演强公公，迅速被大家熟知。</p>
+				2016年1月，加盟湖南卫视《天天向上》以“天天小兄弟”主持的身份登场<div class="tooltip">[15]<span class="tooltiptext">假装是注释，混入其中QWQ</span></div>  ；2月，主演青春偶像养成网络剧《明星志愿》饰演追逐梦想的艺人路风 <div class="tooltip">[4]<span class="tooltiptext">好多好多，哎呀，假装是注释，混入其中QWQ</span></div>   ；2月22日，参与湖南卫视元宵喜乐会与太子妃剧组、众明星一起闹元宵 [17]  ；3月18日，都市幻想网剧《器灵》首次担任男主 [18]  ；5月，参演搜狐出品的自制剧《刺客列传》；<div class="tooltip">[5]<span class="tooltiptext">好多好多，哎呀，假装是注释，混入其中QWQ</span></div>   10月23日，首次献唱新曲《你一定》举办生日会及生日写真EP签名会 [19-20]  。
+				2017年2月，彭昱畅出演现代青春励志剧《浪花一朵朵》，饰演泳队少年明天 <div class="tooltip">[6]<span class="tooltiptext">假装是注释，混入其中QWQ</span></div>  ；7月4日，参与央视电影频道（CCTV-6）首档星素互动电影主题综艺秀《国片大首映》录制 [21]  ；7月7日，参与湖南卫视盛唐时空联合制作的原创文化探秘类节目《七十二层奇楼》 [22]  ；7月28日，与徐璐主演的校园励志片《闪光少女》上映，饰演音乐生李由，并凭借该片提名第20届上海电影节亚洲新人奖最佳男演员奖。 <div class="tooltip">[1]<span class="tooltiptext">好多好多，哎呀，假装是注释，混入其中QWQ</span></div>  ；9月，出演花明导演电影《完美魔咒》<div class="tooltip">[24]<span class="tooltiptext">好多好多，哎呀，假装是注释，混入其中QWQ</span></div>  ；12月，主演都市英雄幻想网络剧《器灵2》播出 [26]  。
+				2018年1月，彭昱畅在浙江卫视综艺节目《演员的诞生》中晋级全国15强，从《解救吾先生》、《投名状》到《滚蛋吧肿瘤君》，彭昱畅用三场人物风格完全不同的表演给观众展示了他多样的面貌<div class="tooltip">[27]<span class="tooltiptext">好多好多，哎呀，假装是注释，混入其中QWQ</span></div>   ；同月，参与中国人气漫画家幽·灵姐妹畅销动漫改编的同名电影《快把我哥带走》，饰演男主时分 [28]  ；2月，出演改编自阿耐同名小说，简川訸执导，王三毛编剧，当代都市题材电视剧《都挺好》，饰演小蒙 <div class="tooltip">[29]<span class="tooltiptext">好多好多，哎呀，假装是注释，混入其中QWQ</span></div>  ；同月，个人第二部电影《大象席地而坐》获得第68届柏林电影节国际影评人费比西奖论坛单元的最佳影片奖，饰演男主韦布 [30-31]  ；3月27日，参与《快乐大本营》，并与张新成邢昭林演唱《普通disco》 [32]  ；4月20日，《向往的生活》官宣，彭昱畅作为新成员加盟第二季节目，与黄磊、何炅、刘宪华组成全新的“向往H4”组合 [33]  ；4月22日，圈内首档明星脑力对战秀《三宝大战诸葛亮》播出，作为三位明星嘉宾中的“萌宝”担当，向娱乐圈不同领域的知识大神发起一场三对一的脑力对决再现传奇之战 [34]  
+				2019年7月22日，主演的体育励志青春剧《奋斗吧！少年》登陆湖南卫视青春进行时剧场，他在剧中饰演天才网球少年路夏<div class="tooltip">[25]<span class="tooltiptext">好多好多，哎呀，假装是注释，混入其中QWQ</span></div>  。9月20日，宣布参加原创青春燃动竞技秀节目《头号大玩家》 [37]  ；9月30日，参演电影的《我和我的祖国》上映。 <div class="tooltip">[38]<span class="tooltiptext">好多好多，哎呀，假装是注释，混入其中QWQ</span></div>  10月28日，彭昱畅加入由腾讯视频出品，企鹅影视、视盐文化联合制作的综艺《口红王子》第二季 [39]  。11月，在职场真人秀《出发吧！从T-HOUSE开始》中担任导师嘉宾 <div class="tooltip">[45]<span class="tooltiptext">好多好多，哎呀，假装是注释，混入其中QWQ</span></div>   。
+				2020年1月24日，在2020年中央广播电视总台春节联欢晚会上与甄泽权、彭于晏、吴磊表演魔术《层出不穷》 <div class="tooltip">[41]<span class="tooltiptext">好多好多，哎呀，假装是注释，混入其中QWQ</span></div>  。同年，主演张一白执导作品《风犬少年的天空》 [42]  。5月，以常驻嘉宾身份参与湖南卫视生活服务纪实节目《向往的生活第四季》 [43]  。</p>
+				<br>
+				<h2 id="two">主要作品</h2>
+				<h3 id="tv">参演电视剧</h3>
+				<table>
+					<tr>
+						<td>
+							<div3 class="responsive">
+								<div3 class="img">
+								  <a target="_blank" href="https://bkimg.cdn.bcebos.com/pic/34fae6cd7b899e510fb301a7fcefce33c895d143a762?x-bce-process=image/resize,m_lfit,w_268,limit_1/format,f_jpg">
+									<img src="https://bkimg.cdn.bcebos.com/pic/34fae6cd7b899e510fb301a7fcefce33c895d143a762?x-bce-process=image/resize,m_lfit,w_268,limit_1/format,f_jpg"  width="300" height="200">
+								  </a>
+								  <div3 class="desc">风犬少年的天空<br>--<br>--<br>--</div3>
+								</div3>
+								</div3>
+						</td>
+						<td>
+							<div3 class="responsive">
+								<div3 class="img">
+									<a target="_blank" href="https://bkimg.cdn.bcebos.com/pic/1e30e924b899a901177bdad813950a7b0308f596?x-bce-process=image/resize,m_lfit,w_268,limit_1/format,f_jpg">
+									<img src="https://bkimg.cdn.bcebos.com/pic/1e30e924b899a901177bdad813950a7b0308f596?x-bce-process=image/resize,m_lfit,w_268,limit_1/format,f_jpg" width="300" height="200">
+									</a>
+									<div3 class="desc">奋斗吧，少年！<br>饰演路夏 <br>导演赵小鸥, 赵小溪 <br>主演董力, 张逸杰</div3>
+									</div3>
+							</div3>
+						</td>
+						<td>
+							<div3 class="responsive">
+								<div3 class="img">
+									<a target="_blank" href="https://bkimg.cdn.bcebos.com/pic/a5c27d1ed21b0ef419ae692ad3c451da81cb3e7b?x-bce-process=image/resize,m_lfit,w_268,limit_1/format,f_jpg">
+									<img src="https://bkimg.cdn.bcebos.com/pic/a5c27d1ed21b0ef419ae692ad3c451da81cb3e7b?x-bce-process=image/resize,m_lfit,w_268,limit_1/format,f_jpg" width="300" height="200">
+									</a>
+									<div3 class="desc">都挺好<br>饰演小蒙 <br>导演简川訸 <br>主演姚晨, 倪大红, 郭京飞</div3>
+								</div3>
+							</div3>
+						</td>
+						<td>
+							<div3 class="responsive">
+								<div3 class="img">
+									<a target="_blank" href="https://bkimg.cdn.bcebos.com/pic/77c6a7efce1b9d169ea88f86f8deb48f8d5464ed?x-bce-process=image/resize,m_lfit,w_268,limit_1/format,f_jpg">
+									<img src="https://bkimg.cdn.bcebos.com/pic/77c6a7efce1b9d169ea88f86f8deb48f8d5464ed?x-bce-process=image/resize,m_lfit,w_268,limit_1/format,f_jpg" width="300" height="200">
+									</a>
+									<div3 class="desc">器灵Ⅱ<br>饰演莫明 <br>导演郭会中 <br>主演孙雪宁, 刘骐, 李诺, 蒋梓乐</div3>
+								</div3>
+							</div3>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<div3 class="responsive">
+								<div3 class="img">
+									<a target="_blank" href="https://bkimg.cdn.bcebos.com/pic/c8ea15ce36d3d539e715c55f3087e950352ab006?x-bce-process=image/resize,m_lfit,w_268,limit_1/format,f_jpg">
+									<img src="https://bkimg.cdn.bcebos.com/pic/c8ea15ce36d3d539e715c55f3087e950352ab006?x-bce-process=image/resize,m_lfit,w_268,limit_1/format,f_jpg" width="300" height="200">
+									</a>
+									<div3 class="desc">浪花一朵朵<br> 饰演明天<br> 导演常晓阳<br> 主演谭松韵, 熊梓淇, 黄圣池</div3>
+								</div3>
+							</div3>
+						</td>
+						<td>
+							<div3 class="responsive">
+								<div3 class="img">
+									<a target="_blank" href="https://bkimg.cdn.bcebos.com/pic/2e2eb9389b504fc258dc6a05ecdde71190ef6d2b?x-bce-process=image/resize,m_lfit,w_268,limit_1/format,f_jpg">
+									<img src="https://bkimg.cdn.bcebos.com/pic/2e2eb9389b504fc258dc6a05ecdde71190ef6d2b?x-bce-process=image/resize,m_lfit,w_268,limit_1/format,f_jpg" width="300" height="200">
+									</a>
+									<div3 class="desc">明星志愿<br>饰演路风<br> 导演柳东翰<br> 主演王瑞子, 张皓然, 彦希</div3>
+								</div3>
+							</div3>
+						</td>
+						<td>
+							<div3 class="responsive">
+								<div3 class="img">
+									<a target="_blank" href="https://bkimg.cdn.bcebos.com/pic/b3119313b07eca8061a05704992397dda04483af?x-bce-process=image/resize,m_lfit,w_268,limit_1/format,f_jpg">
+									<img src="https://bkimg.cdn.bcebos.com/pic/b3119313b07eca8061a05704992397dda04483af?x-bce-process=image/resize,m_lfit,w_268,limit_1/format,f_jpg" width="300" height="200">
+									</a>
+									<div3 class="desc">器灵<br>饰演莫明<br> 导演探花<br> 主演孙雪宁, 伊丹爱莉</div3>
+								</div3>
+							</div3>
+						</td>
+						<td>
+							<div3 class="responsive">
+								<div3 class="img">
+									<a target="_blank" href="https://bkimg.cdn.bcebos.com/pic/e7cd7b899e510fb3b31b60d9d133c895d1430c79?x-bce-process=image/resize,m_lfit,w_268,limit_1/format,f_jpg">
+									<img src="https://bkimg.cdn.bcebos.com/pic/e7cd7b899e510fb3b31b60d9d133c895d1430c79?x-bce-process=image/resize,m_lfit,w_268,limit_1/format,f_jpg" width="300" height="200">
+									</a>
+									<div3 class="desc">刺客列传<br>饰演孟章<br> 导演赵世尧 <br>主演查杰, 连晨翔, 赵志伟</div3>
+								</div3>
+							</div3>
+						</td>
+					</tr>
+
+				</table>
+			</div>
+				<br>
+				
+				<div class="frame">
+					<h3 id="film">参演电影</h3>
+					<table>
+						<tr>
+							<td>
+								<div3 class="responsive">
+									<div3 class="img">
+										<a target="_blank" href="https://bkimg.cdn.bcebos.com/pic/e61190ef76c6a7ef9ffab173f2faaf51f2de6682?x-bce-process=image/resize,m_lfit,w_268,limit_1/format,f_jpg">
+										<img src="https://bkimg.cdn.bcebos.com/pic/e61190ef76c6a7ef9ffab173f2faaf51f2de6682?x-bce-process=image/resize,m_lfit,w_268,limit_1/format,f_jpg" width="300" height="200">
+										</a>
+										<div3 class="desc">夺冠<br>饰演陈忠和（青年）<br> 导演陈可辛 <br>主演巩俐, 吴刚</div3>
+									</div3>
+								</div3>
+							</td>
+							<td>
+								<div3 class="responsive">
+									<div3 class="img">
+										<a target="_blank" href="https://bkimg.cdn.bcebos.com/pic/d4628535e5dde711d69e42dea8efce1b9d16614d?x-bce-process=image/resize,m_lfit,w_268,limit_1/format,f_jpg">
+										<img src="https://bkimg.cdn.bcebos.com/pic/d4628535e5dde711d69e42dea8efce1b9d16614d?x-bce-process=image/resize,m_lfit,w_268,limit_1/format,f_jpg" width="300" height="200">
+										</a>
+										<div3 class="desc">小小的心愿<br>--<br>导演田羽生<br> 主演王大陆, 魏大勋</div3>
+									</div3>
+								</div3>
+							</td>
+							<td>
+								<div3 class="responsive">
+									<div3 class="img">
+										<a target="_blank" href="https://bkimg.cdn.bcebos.com/pic/b151f8198618367af5249a0520738bd4b21ce5bd?x-bce-process=image/watermark,g_7,image_d2F0ZXIvYmFpa2UyNzI=,xp_5,yp_5">
+										<img src="https://bkimg.cdn.bcebos.com/pic/b151f8198618367af5249a0520738bd4b21ce5bd?x-bce-process=image/watermark,g_7,image_d2F0ZXIvYmFpa2UyNzI=,xp_5,yp_5" width="300" height="200">
+										</a>
+										<div3 class="desc">我和我的祖国<br>--<br>导演陈凯歌<br>--</div3>
+									</div3>
+								</div3>
+							</td>
+							<td>
+								<div3 class="responsive">
+									<div3 class="img">
+										<a target="_blank" href="https://bkimg.cdn.bcebos.com/pic/377adab44aed2e73b7f07b108b01a18b87d6faf5?x-bce-process=image/resize,m_lfit,w_268,limit_1/format,f_jpg">
+										<img src="https://bkimg.cdn.bcebos.com/pic/377adab44aed2e73b7f07b108b01a18b87d6faf5?x-bce-process=image/resize,m_lfit,w_268,limit_1/format,f_jpg" width="300" height="200">
+										</a>
+										<div3 class="desc">大象席地而坐<br>饰演韦布<br> 导演胡波 <br>主演章宇, 王玉雯, 李从喜</div3>
+									</div3>
+								</div3>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<div3 class="responsive">
+									<div3 class="img">
+										<a target="_blank" href="https://bkimg.cdn.bcebos.com/pic/b151f8198618367a3ad76b3f22738bd4b21ce5f2?x-bce-process=image/watermark,g_7,image_d2F0ZXIvYmFpa2UxMTY=,xp_5,yp_5">
+										<img src="https://bkimg.cdn.bcebos.com/pic/b151f8198618367a3ad76b3f22738bd4b21ce5f2?x-bce-process=image/watermark,g_7,image_d2F0ZXIvYmFpa2UxMTY=,xp_5,yp_5" width="300" height="200">
+										</a>
+										<div3 class="desc">快把我哥带走<br>饰演时分<br> 导演郑芬芬 <br>主演张子枫, 赵今麦, 孙泽源</div3>
+									</div3>
+								</div3>
+							</td>
+							<td>
+								<div3 class="responsive">
+									<div3 class="img">
+										<a target="_blank" href="https://bkimg.cdn.bcebos.com/pic/9345d688d43f87945dfcb0ddd81b0ef41ad53ac6?x-bce-process=image/resize,m_lfit,w_268,limit_1/format,f_jpg">
+										<img src="https://bkimg.cdn.bcebos.com/pic/9345d688d43f87945dfcb0ddd81b0ef41ad53ac6?x-bce-process=image/resize,m_lfit,w_268,limit_1/format,f_jpg" width="300" height="200">
+										</a>
+										<div3 class="desc">闪光少女<br>饰演李由（油渣）<br> 导演王冉 <br>主演徐璐, 刘泳希, 鲁照华</div3>
+									</div3>
+								</div3>
+							</td>
+							<td>
+								<div3 class="responsive">
+									<div3 class="img">
+										<a target="_blank" href="https://bkimg.cdn.bcebos.com/pic/242dd42a2834349b39b55792c7ea15ce36d3be71?x-bce-process=image/watermark,g_7,image_d2F0ZXIvYmFpa2UxODA=,xp_5,yp_5">
+										<img src="https://bkimg.cdn.bcebos.com/pic/242dd42a2834349b39b55792c7ea15ce36d3be71?x-bce-process=image/watermark,g_7,image_d2F0ZXIvYmFpa2UxODA=,xp_5,yp_5" width="300" height="200">
+										</a>
+										<div3 class="desc">回到过去拥抱你<br>饰演张子扬 <br>导演花明 <br>主演侯明昊, 盖玥希, 甘宇喆</div3>
+									</div3>
+								</div3>
+								</div3>
+							</td>
+						</tr>
+					</table>
+				<br>
+				<div>
+				<h3 id="variety">综艺节目</h3>
+				<div id="overflowTest"><!--让他变成滚动条-->
+					<p>2020-05-08   湖南卫视  《向往的生活第四季》      常驻嘉宾</p>
+					<p>2019-10-29	腾讯综艺台《口红王子第二季》[48] 	----</p>
+					<p>2019-10-05	芒果TV《舞蹈风暴》[49] 	----</p>
+					<p>2019-09-21	湖南卫视《快乐大本营》	彭昱畅化身“阿中”真爱粉</p>
+					<p>2019-09-02	芒果TV《甜蜜的任务》	甜蜜的任务第31期</p>
+					<p>2019-09-01	芒果TV《神奇的汉字》	神奇的汉字20190901期</p>
+					<p>2019-08-29	芒果TV《神奇的汉字》	神奇的汉字20190829期</p>
+					<p>2019-08-28	芒果TV《神奇的汉字》	神奇的汉字20190828期</p>
+					<p>2019-08-27	芒果TV《神奇的汉字》	神奇的汉字20190827期</p>
+					<p>2019-07-25	湖南卫视《向往的生活第三季》	彭昱畅瘦身成功秀腹肌</p>
+					<p>2019-06-29	湖南卫视《快乐大本营》	彭昱畅破音三连</p>
+					<p>2019-04-06	湖南卫视《快乐大本营》	快乐大本营20190406期</p>
+					<p>2019-03-09	湖南卫视《快乐大本营》	快乐大本营20190309期</p>
+					<p>2018-12-22	湖南卫视《快乐大本营》	快乐大本营20181222期</p>
+					<p>2018-08-11	湖南卫视《快乐大本营》	快乐大本营20180811期</p>
+					<p>2018-06-30	湖南卫视《快乐大本营》	快乐大本营20180630期</p>
+					<p>2018-05-12	湖南卫视《快乐大本营》	与黄磊、刘宪华共同出演</p>
+					<p>2018-04-29	湖南卫视《快乐大本营》	快乐大本营20180429期</p>
+					<p>2018-04-22	湖南卫视《三宝大战诸葛亮》	作为三位明星嘉宾中的“萌宝”担当，向娱乐圈不同领域的知识大神发起一场三对一的脑力对决再现传奇之战。</p>
+					<p>2018-04-20	湖南卫视《向往的生活第二季》	与黄磊、何炅、刘宪华一起组成“向往H4”</p>
+					<p>2018-03-17	湖南卫视《快乐大本营》	与张新成邢昭林演唱了《普通disco》，此次节目中还有毛不易、赵天宇还有张碧晨等</p>
+					<p>2018-02-23	浙江卫视《王牌对王牌》	重现《奋斗》片段</p>
+					<p>2018-01-16	浙江卫视《演员的诞生》	搭档演员史可、张雪迎挑战《滚蛋吧肿瘤君》片段</p>
+					<p>2017-12-16	浙江卫视《演员的诞生》	与周一围、凌潇肃柳岩合作表演电影《投名状》</p>
+					<p>2017-12-02	浙江卫视《演员的诞生》	搭档陈龙、李泽锋挑战《解救吾先生》片段；与飞行导师陶虹限时演绎《末代皇后》片段</p>
+					<p>2017-07-07	湖南卫视《七十二层奇楼》	扮演假白龙马的角色</p>
+					<p>2017-07-04	CCTV-6《国片大首映》	搭档徐璐、刘泳希、乐思宏、陈奕迅、周笔畅等</p>
+					<p>2016-01-15	湖南卫视《天天向上》	黄绮珊麻辣拆台天天小兄弟 李莎旻子痴恋金东硕</p>
+					<p>2016-01-08	湖南卫视《天天向上》	冯小刚遭张歆艺性感“色诱” 吴亦凡气场全开激情飚戏</p>
+					<p>2016-01-01	湖南卫视《天天向上》	天天小兄弟强势登场 陈思诚王宝强齐“探案”</p>
+					<p>2019-10-27 	湖南卫视《天天向上》[68] 	----</p>
+				</div>
+			</div>
+				<h3 id="photo">杂志写真</h3>
+				<div class="frame">
+				<div2 class="responsive1">
+					<div2 class="img">
+						<a target="_blank" href="https://bkimg.cdn.bcebos.com/pic/3ac79f3df8dcd100cb7e8b657e8b4710b8122f97?x-bce-process=image/crop,x_44,y_0,w_657,h_891/resize,m_lfit,h_570,limit_1/quality,q_70">
+						<img src="https://bkimg.cdn.bcebos.com/pic/3ac79f3df8dcd100cb7e8b657e8b4710b8122f97?x-bce-process=image/crop,x_44,y_0,w_657,h_891/resize,m_lfit,h_570,limit_1/quality,q_70" width="300" height="200">
+						</a>
+						<div2 class="desc">YOHO！潮流志</div2>
+					</div2>
+				</div2>
+				<div2 class="responsive1">
+					<div2 class="img">
+						<a target="_blank" href="https://bkimg.cdn.bcebos.com/pic/cdbf6c81800a19d8e519f6413ffa828ba61e465f?x-bce-process=image/crop,x_0,y_0,w_675,h_919/resize,m_lfit,h_570,limit_1/quality,q_70">
+						<img src="https://bkimg.cdn.bcebos.com/pic/cdbf6c81800a19d8e519f6413ffa828ba61e465f?x-bce-process=image/crop,x_0,y_0,w_675,h_919/resize,m_lfit,h_570,limit_1/quality,q_70" width="300" height="200">
+						</a>
+						<div2 class="desc">小资</div2>
+					</div2>
+				</div2>
+				<div2 class="responsive1">
+					<div2 class="img">
+						<a target="_blank" href="https://bkimg.cdn.bcebos.com/pic/ae51f3deb48f8c54d4adb76b36292df5e0fe7f73?x-bce-process=image/crop,x_0,y_0,w_705,h_958/resize,m_lfit,h_570,limit_1/quality,q_70">
+						<img src="https://bkimg.cdn.bcebos.com/pic/ae51f3deb48f8c54d4adb76b36292df5e0fe7f73?x-bce-process=image/crop,x_0,y_0,w_705,h_958/resize,m_lfit,h_570,limit_1/quality,q_70" width="300" height="200">
+						</a>
+						<div2 class="desc">昕薇</div2>
+					</div2>
+				</div2>
+				<div2 class="responsive1">
+					<div2 class="img">
+						<a target="_blank" href="https://bkimg.cdn.bcebos.com/pic/2f738bd4b31c8701801961be2b7f9e2f0708ff3f?x-bce-process=image/crop,x_0,y_77,w_782,h_1062/resize,m_lfit,h_570,limit_1/quality,q_70">
+						<img src="https://bkimg.cdn.bcebos.com/pic/2f738bd4b31c8701801961be2b7f9e2f0708ff3f?x-bce-process=image/crop,x_0,y_77,w_782,h_1062/resize,m_lfit,h_570,limit_1/quality,q_70" width="300" height="200">
+						</a>
+						<div2 class="desc">红秀</div2>
+					</div2>
+				</div2>
+				<div2 class="responsive1">
+					<div2 class="img">
+						<a target="_blank" href="https://bkimg.cdn.bcebos.com/pic/6159252dd42a28345d18dd5557b5c9ea15cebf36?x-bce-process=image/crop,x_0,y_8,w_863,h_1175/resize,m_lfit,h_570,limit_1/quality,q_70">
+						<img src="https://bkimg.cdn.bcebos.com/pic/6159252dd42a28345d18dd5557b5c9ea15cebf36?x-bce-process=image/crop,x_0,y_8,w_863,h_1175/resize,m_lfit,h_570,limit_1/quality,q_70" width="300" height="200">
+						</a>
+						<div2 class="desc">时尚先生</div2>
+					</div2>
+				</div2>
+				<div2 class="responsive1">
+					<div2 class="img">
+						<a target="_blank" href="https://bkimg.cdn.bcebos.com/pic/18d8bc3eb13533fadf53e06aa4d3fd1f40345b88?x-bce-process=image/crop,x_0,y_0,w_431,h_587/resize,m_lfit,h_570,limit_1/quality,q_70">
+						<img src="https://bkimg.cdn.bcebos.com/pic/18d8bc3eb13533fadf53e06aa4d3fd1f40345b88?x-bce-process=image/crop,x_0,y_0,w_431,h_587/resize,m_lfit,h_570,limit_1/quality,q_70" width="300" height="200">
+						</a>
+						<div2 class="desc">Easy</div2>
+					</div2>
+				</div2>
+				<div2 class="responsive1">
+					<div2 class="img">
+						<a target="_blank" href="https://bkimg.cdn.bcebos.com/pic/c75c10385343fbf2d0be667bbc7eca8064388fdc?x-bce-process=image/crop,x_46,y_0,w_633,h_860/resize,m_lfit,h_570,limit_1/quality,q_70">
+						<img src="https://bkimg.cdn.bcebos.com/pic/c75c10385343fbf2d0be667bbc7eca8064388fdc?x-bce-process=image/crop,x_46,y_0,w_633,h_860/resize,m_lfit,h_570,limit_1/quality,q_70" width="300" height="200">
+						</a>
+						<div2 class="desc">风度mensuno</div2>
+					</div2>
+				</div2>
+				<div2 class="responsive1">
+					<div2 class="img">
+						<a target="_blank" href="https://bkimg.cdn.bcebos.com/pic/aa64034f78f0f736a228a75f0655b319eac4139d?x-bce-process=image/crop,x_0,y_274,w_1958,h_2663/resize,m_lfit,h_570,limit_1/quality,q_70">
+						<img src="https://bkimg.cdn.bcebos.com/pic/aa64034f78f0f736a228a75f0655b319eac4139d?x-bce-process=image/crop,x_0,y_274,w_1958,h_2663/resize,m_lfit,h_570,limit_1/quality,q_70" width="300" height="200">
+						</a>
+						<div2 class="desc">香蕉街拍</div2>
+					</div2>
+				</div2>
+			</div>
+				<br>
+				<br>
+				<br>
+				<hr>
+				<hr>
+
+				<h3 id="music">音乐作品</h3>
+				<div class="tem">
+				<h4>专辑</h4>
+				<table class="form">
+					<tr>
+						<th>专辑名称</th>
+						<th>发行时间</th>
+						<th>语言</th>
+						<th>详情</th>
+					</tr>
+					<tr>
+						<td>《你一定》</td>
+						<td>2016-10-23</td>
+						<td>国语</td>
+						<td><a href="https://baike.baidu.com/item/%E4%BD%A0%E4%B8%80%E5%AE%9A">点击查看详情</a></td>
+					</tr>
+				</table>
+				<h4>单曲</h4>
+				<table class="form">
+					<tr>
+						<th>歌曲名称（歌曲说明）</th>
+						<th>发行时间</th>
+					</tr>
+					<tr>
+						<td>《十七岁的时光不说谎》 （《闪光少女》推广曲）</td>
+						<td>2017-07-17</td>
+					</tr>
+					<tr>
+						<td>《英雄》 （《刺客列传2》​推广曲）</td>
+						<td>--</td>
+					</tr>
+					<tr>
+						<td>《Show me!》 （《闪光少女》推广曲）</td>
+						<td>--</td>
+					</tr>
+				</table>
+			</div>
+				<hr>
+				<h2 id="three">个人生活</h2>
+				<p>2020年4月23日，彭昱畅发文承认恋情。</p>
+				<h2 id="four">社会生活</h2>
+				<div class="row">
+					<div class="leftcolumn">
+				<p>2016年4月26日，彭昱畅重现《天天向上》经典桥段，在个人微博中发布“1分钟吃掉8个蛋挞”的助力公益成长计划视频；在正能量善事面前毫无偶像包袱的他希望大家也都能参与到这次有意义的活动中来 [77]  。</p>
+				<p>2016年8月15日，彭昱畅参与时尚芭莎公益活动“画出生命线” [78]  。</p>
+				<p>2017年3月11日，彭昱畅&徐浩炫舞梦工厂in-music“少年新声”演唱会” [79]  </p>
+				<p>2017年6月16日，彭昱畅助阵“为明天，一起善行”体验式公益活动爱心大使 [80]  。</p>
+				<p>2017年8月27日，彭昱畅出席2017粉丝嘉年华盛典，化身DJ用Launchpad演奏了一段炫酷的电子音乐 [81]  </p>
+				<p>2017年10月25日，彭昱畅在上海长风海洋世界白鲸馆举办了他的23岁生日会，献唱新曲《你一定》 [19]  。</p>
+					</div>
+					<div class="rightcolumn">
+						<div1 class="responsive">
+							<div1 class="img">
+							  <a target="_blank" href="https://bkimg.cdn.bcebos.com/pic/72f082025aafa40f08825b33a564034f79f01993?x-bce-process=image/watermark,g_7,image_d2F0ZXIvYmFpa2UxMTY=,xp_5,yp_5">
+								<img src="https://bkimg.cdn.bcebos.com/pic/72f082025aafa40f08825b33a564034f79f01993?x-bce-process=image/watermark,g_7,image_d2F0ZXIvYmFpa2UxMTY=,xp_5,yp_5" width="400" height="300">
+							  </a>
+							  <div1 class="desc">天天向上</div1>
+							</div1>
+						  </div>
+					</div>
+				<h2 id="five">获奖记录</h2>
+				<h4>上海国际电影节</h4>
+				<ul>
+					<li>2017    第20届上海国际电影节之亚洲新人奖最佳男演员奖    闪光少女     （提名） </li>
+				</ul>
+				<h4>北京大学生电影节</h4>
+				<ul>
+					<li> 2019    第26届北京大学生电影节最佳新人奖[82]     快把我哥带走    （提名）</li>
+					<li> 2018    第25届北京大学生电影节最佳新人奖[83]     闪光少女    （提名）     </li>
+				</ul>
+				<h4>台湾电影金马奖</h4>
+				<ul>
+					<li> 2018    第55届台湾电影金马奖最佳男主角奖[10]     大象席地而坐    （提名）</li>
+				</ul>
+				<h4>其它奖项</h4>
+				<ul>
+					<li> 2018    “放肆一下”移动视频风云盛典    年度影视风尚人物[84]     （获奖）    </li>
+					<li> 2018    2019爱奇艺尖叫之夜    年度银幕突破艺人[85]     （获奖） </li>
+					<li> 2017-08-27    2017亚洲新歌榜    2017年度最佳影视跨界新人[86]     （获奖）</li>
+					<li> 2017    2017年微博电影之夜    最受期待新生力量[87]     《闪光少女》    （获奖）</li>
+					<li> 2017    2017年微博电视影响力盛典    获得年度新锐艺人[88]     （获奖）    </li>
+				</ul>
+				<h4>华语青年影像论坛</h4>
+				<ul>
+					<li> 2017    第12届华语青年影像论坛年度新锐男演员奖[89]     闪光少女    （提名） </li>
+				</ul>
+				<h4>福布斯中国名人榜</h4>
+				<ul>
+					<li> 2019-10-17    2019福布斯中国30岁以下精英榜[13]     （获奖）</li>
+					<li> 2019-8    2019福布斯中国100名人榜[12]     （获奖）</li>
+				</ul>
+				<h2 id="six">人物评价</h2>
+				<p>彭昱畅充满青春时尚的气息并拥有可爱的笑容，其呆萌帅气的形象引得粉丝痴迷，彭昱畅不俗的演技，厚积薄发，被磨练的越来越成熟，疯狂吸粉的同时也得到了观众和导演们的认可。在网络剧《器灵》中，彭昱畅饰演二次元少年莫明，为更好驾驭这个角色，他异常努力，在高强度的拍摄状态，只要镜头一对准，就立马满血复活，敬业度满满 [18]  [44]  [90]  。（网易娱乐、搜狐娱乐评价）</p>
+				</div>
+			</div>
+				<div class="column side">
+				  </div>
+
+		  </div>
+			  
+			</div>
+		  </div>
+		  
+	
+	<div class="footer">
+		<h2>又一个放广告的好地方</h2>
+		<h3>爸爸妈妈给我爱吃的喜之郎果冻</h3>
+	  </div>
+
 </body>
-</html> 
+</html>

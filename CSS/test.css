@@ -1,0 +1,373 @@
+/*消除整个网页得内外边距*/
+body{
+    margin: 0;
+    padding: 0;
+}
+a{
+  text-decoration: none;
+}
+.header /*头部区域*/
+{
+    background-color: #c8eff1;
+    padding: 20px;
+    text-align: center;
+}
+/*整菜单*/
+/*导航栏style*/
+li{
+    list-style-type: none;
+}
+#menu {
+    width: 100%;
+    height: 45px;
+    background-color: hsl(240, 76%, 48%);
+}
+#menu ul{
+    margin: 0;
+}
+#menu li{
+    float: left;
+    width: 100px;
+    line-height:45px;
+    text-align: center;
+    position:relative;
+    margin-left: 20px;
+    display: block;
+}
+#menu li a {
+    font-size:16px; 
+    color: white;
+    display:block;
+    text-decoration:none; 
+}
+#menu li:hover a {
+    background-color: white;
+    color: hsl(240, 76%, 48%); /*导航栏文字颜色 */
+    
+}
+.dropdown{ /* 下拉菜单边框颜色*/
+  margin: 0px auto;
+  position: absolute;
+  left: -999em;/*让下拉框左远离当前布局*/
+  text-align: left;
+  width: 140px;
+}
+#menu li:hover .dropdown {
+    left:0px;/*重新设置下拉框回到当前布局*/
+    top:38px;
+    margin-top: 8px;
+    background-color:#9594E2;
+}
+#menu li:hover div a { /* 下拉菜单文字及背景颜色颜色*/
+    line-height: 40px;
+    font-size:14px;
+    color:white;
+    background-color: #9594E2;
+}
+#menu li:hover div a:hover{color:red;} /*下拉带单鼠标停留颜色*/
+
+#menu li ul li {
+  font-size:12px;
+  line-height:26px;
+  position:relative;
+  padding:0;
+  margin:0;
+  text-align:left;
+  width:100px;
+}
+/*个人中心字体设计，实际上及时摆设*/
+span{
+  float: right;
+  color: white;
+  width: 100px;
+  line-height:45px;
+  text-align: center;
+  position:relative;
+  margin-right: 300px;
+  border:none;
+  display: block;
+}
+span:hover{
+  background-color: white;
+    color: hsl(240, 76%, 48%);
+}
+/*导航栏style --end*/
+.video/* 视频 */
+{
+  margin: 20;
+  padding: 20;
+  height:400px;
+  width:600px;
+}
+
+.column /* 创建三个不相等的列 */
+{
+  float: left;
+  padding: 10px;
+}
+.column.side /* 左右宽度 */
+{
+  width: 10%;
+}
+.column.middle /* 中间宽度 */
+{
+  width: 80%;
+}
+.row:after /* 列后面清除浮动 */
+{
+  content: "";
+  display: table;
+  clear: both;
+}
+   
+
+
+  /* 图像部分 */
+  .fakeimg {
+    background-color: #aaa;
+    width: 80%;
+    padding: 20px;
+  }
+   
+  /* 文章卡片效果 */
+  .card {
+    background-color: white;
+    padding: 20px;
+
+  }
+  .card1 {
+    background-color: rgba(206, 233, 248, 0.726);
+    padding: 20px;
+   
+    text-align: center;
+  }
+  /* 列后面清除浮动 */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+   
+  /* 底部 */
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: rgba(93, 118, 231, 0.904);
+    margin-top: 20px;
+  }
+   
+  /* 响应式布局 - 屏幕尺寸小于 800px 时，两列布局改为上下布局 */
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }
+   
+  /* 响应式布局 -屏幕尺寸小于 400px 时，导航等布局改为上下布局 */
+  @media screen and (max-width: 400px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+  }
+body/*背景颜色*/
+{
+    background-color: seashell;
+}
+.information
+{
+    text-align: center;
+    position: absolute;
+    right: 500px;
+    width: 600px;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}
+a:link  /* 正常，未访问链接*/
+{
+    color: #0000FF;
+}     
+a:visited  /* 用户已访问链接 */
+{
+    color:#00FF00;
+} 
+a:hover {color:rgb(238, 30, 15);}  /* 鼠标移动在链接上 */
+a:active {color:rgb(12, 12, 12);}  /* 鼠标点击那下 */
+ul.a {list-style-type: square;}
+
+p.padding
+{
+	padding-top:25px;
+	padding-bottom:25px;
+	padding-right:50px;
+  padding-left:50px;
+  background-color: aquamarine;
+}
+#overflowTest /*滚动条*/
+{
+  background: rgb(171, 206, 240);
+  color: white;
+  padding: 15px;
+  width: 95%;
+  height: 600px;
+  overflow: scroll;
+  border: 1px solid #ccc;
+}
+.form tr th/*表格*/
+{
+  border-style: groove;
+}
+
+
+/* 创建两列 */
+/*左边 (第一栏里)*/
+.leftcolumn {   
+  float: left;
+  width: 70%;
+}
+/* 右边（第一栏里） */
+.rightcolumn {
+  float: left;
+  width: 20%;
+  background-color: #fffdfd;
+  padding-left: 10px;
+}
+/*左边 */
+.left{   
+  float: left;
+  width: 30%;
+}
+/* 右边 */
+.right {
+  float: left;
+  width: 60%;
+  background-color: #fffdfd;
+  padding-left: 10px;
+}
+ 
+
+/*第一栏的一张照片图片*/
+
+ div1.img {
+  margin: 50px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 200px;
+}
+
+div1.img:hover {
+  border: 1px solid #777;
+}
+
+div1.img img {
+  width: 100%;
+  height: auto;
+}
+
+div1.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.cata/*目录*/
+{
+  margin-left: 100px;
+}
+
+.frame
+{
+  border-style: none;
+  width: 100%;
+}
+
+/*电视剧电影的图片*/
+
+div3.img {
+  margin: 30px;
+  float: left;
+  border: 0px solid #ccc;
+  margin: auto;
+  width: 300px;
+}
+
+div3.img:hover {
+  border: 1px solid #777;
+}
+
+div3.img img {
+  width: 100%;
+  height: auto;
+}
+
+div3.desc {
+  padding: 25px;
+  text-align: center;
+}
+
+
+/*杂志写真的图片*/
+
+div2.img {
+  margin: 30px;
+  border: 0px solid #ccc;
+  margin: auto;
+  width: 300px;
+}
+
+div2.img:hover {
+  border: 1px solid #777;
+}
+
+div2.img img {
+  width: 20%;
+  height: auto;
+}
+
+div2.desc {
+  padding: 25px;
+  text-align: center;
+}
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 25%;
+}
+/*响应式*/
+@media only screen and (max-width: 700px){
+  .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px){
+  .responsive {
+      width: 100%;
+  }
+}
+
+/*加注释 ，鼠标滑过那种*/
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* 定位 */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
